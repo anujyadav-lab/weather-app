@@ -1,0 +1,37 @@
+.weatherBg{
+    background:url("./Assets/landscape-3369304_1920.jpg");
+
+    height: 50vh;
+    // max-width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        color: rgb(61, 83, 189);
+        font-weight: 700;
+
+    }
+}
+
+.weatherResultBox{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+
+    .weatherIcons{
+        margin: 2rem;
+        width: 100px;
+        height: 100px;
+    }
+
+    .weatherCity{
+        font-size: 35px;
+    }
+
+    .weatherTemp{
+        font-size: 55px;
+        font-weight: 700;
+    }
+}
